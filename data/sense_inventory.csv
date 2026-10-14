@@ -1,0 +1,13 @@
+word,sense_id,sense_label,definition,synonyms,hypernym,related_words
+bank,bank_1,financial institution,An organization that accepts deposits and provides financial services.,depository; lender,financial institution,account; loan; deposit
+bank,bank_2,side of a river,The land alongside or sloping down to a river or lake.,riverside; shore,landform,river; water; shore
+bat,bat_1,flying mammal,A nocturnal mammal with wings formed from a membrane.,chiropteran,mammal,cave; wings; nocturnal
+bat,bat_2,sports equipment,A club-shaped implement used to hit a ball in games such as cricket or baseball.,club,sports equipment,cricket; ball; hit
+light,light_1,illumination,The natural agent that makes things visible.,illumination; brightness,visible energy,lamp; bright; dark
+light,light_2,not heavy,Having relatively little weight; easy to lift or carry.,lightweight,physical property,weight; carry; heavy
+plant,plant_1,living organism,A living organism that typically grows in soil and uses sunlight for energy.,flora,living thing,soil; water; leaves
+plant,plant_2,industrial facility,A factory or facility where products are manufactured or processed.,factory; facility,industrial facility,factory; production; workers
+crane,crane_1,large bird,"A tall, long-legged bird, often found in wetlands.",wading bird,bird,marsh; feathers; lake
+crane,crane_2,lifting machine,A tall machine used to lift and move heavy objects.,hoist,machine,construction; lift; steel
+apple,apple_1,fruit,A round edible fruit produced by an apple tree.,pome,fruit,sweet; tree; eat
+apple,apple_2,technology company,A company known for consumer electronics and software.,Apple Inc.,company,phone; laptop; software

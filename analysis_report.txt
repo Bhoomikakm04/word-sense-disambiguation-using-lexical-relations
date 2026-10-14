@@ -1,0 +1,19 @@
+NLP ASSIGNMENT 5: WORD SENSE DISAMBIGUATION
+
+Objective
+Build a small WSD website that identifies the intended meaning of ambiguous words using context and lexical information.
+
+Dataset
+A synthetic teaching dataset contains 6 target words (bank, bat, light, plant, crane, apple), two senses per word, and 12 labeled sample sentences. Each sense includes a definition, examples, synonyms, a hypernym, and related cue words.
+
+Method
+A Lesk-inspired lexical-overlap algorithm tokenizes the sentence, removes common stopwords, compares context terms against each candidate sense's definition and cue words, and chooses the candidate with the highest overlap. The interface displays scores and matched terms for transparency.
+
+Observations
+The method is interpretable and works best when context contains strong clues. It may fail on short sentences, unseen vocabulary, or ties between candidate senses.
+
+Limitations
+The mini-lexicon and relations are artificially curated for this assignment; this is not a live/full WordNet implementation. Synthetic-data accuracy must not be treated as general model performance.
+
+Future improvements
+Integrate NLTK WordNet, expand and validate the labeled corpus, add lemmatization and POS constraints, compare with a supervised or transformer-based model, and evaluate on a held-out dataset using precision, recall, and F1-score.
